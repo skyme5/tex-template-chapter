@@ -501,58 +501,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 23.
-! You can't use `\dimexpr' in internal vertical mode.
-<argument> ...\@tempdima \@parboxrestore \dimexpr 
-                                                  \linewidth -2cm\relax \@@par 
-l.28 ...rbox[t]{5cm}{\dimexpr\linewidth-2cm\relax}
-                                                  {\flushright\Huge 23232323...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 ...{\dimexpr\linewidth-2cm\relax}{\flushright
-                                                  \Huge 23232323232323232323...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 ...{\dimexpr\linewidth-2cm\relax}{\flushright
-                                                  \Huge 23232323232323232323...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 ...{\dimexpr\linewidth-2cm\relax}{\flushright
-                                                  \Huge 23232323232323232323...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (116.74635pt too wide) in paragraph at lines 28--28
+ \OT1/cmr/m/n/24.88 232323232323232323232323232323232323232323
+ []
 
 [1
 
-{C:/Users/Sky/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+{C:/Users/Sky/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (template_Scrbook.aux)
 
 LaTeX Font Warning: Size substitutions with differences
@@ -570,9 +526,9 @@ Here is how much of TeX's memory you used:
 <D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Latex/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Latex/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmr17.pfb>
-Output written on template_Scrbook.pdf (2 pages, 27076 bytes).
+Output written on template_Scrbook.pdf (1 page, 25931 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
+ 21 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  7181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

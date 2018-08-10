@@ -22,10 +22,7 @@
 					\centering\color{white}\fontsize{80}{90}\selectfont 2323}%
 		}}%
 	};
-	\node[inner sep=0pt,anchor=west] (title) at 
-	([yshift=-6.5cm]current page text area.west|-current page.north)
-	{\parbox[t]{2cm}{\mbox{}}%
-		\parbox[t]{\dimexpr\linewidth-2cm\relax}{\flushright\Huge 232323232323232323232323232323232323232323}};
+	\node[right of=label,fill=blue!25,text width=3cm]{This is a demonstration text for showing how line breaking works.};;
 	\node[inner sep=0pt,anchor=north west] at ([yshift=-7cm]current page.north west)
 	{\color{gray!20}\rule{\paperwidth}{1cm}};
 	\end{tikzpicture}
