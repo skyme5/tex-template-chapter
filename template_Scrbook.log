@@ -459,15 +459,15 @@ G,.JBIG2,.JB2,.eps]
 {C:/Users/Sky/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (template_Scr
 book.aux) ) 
 Here is how much of TeX's memory you used:
- 13555 strings out of 492969
- 277275 string characters out of 3139343
+ 13552 strings out of 492969
+ 277200 string characters out of 3139343
  416790 words of memory out of 3000000
- 17216 multiletter control sequences out of 15000+200000
+ 17213 multiletter control sequences out of 15000+200000
  4293 words of font info for 16 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,8n,66p,9097b,537s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,8n,66p,9097b,486s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on template_Scrbook.pdf (1 page, 15513 bytes).
+Output written on template_Scrbook.pdf (1 page, 15484 bytes).
 PDF statistics:
  13 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
