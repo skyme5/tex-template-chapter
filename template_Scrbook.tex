@@ -6,25 +6,31 @@
 \usepackage{microtype}
 \definecolor{myblue}{RGB}{0,82,155}
 
+\titleformat{\chapter}[display]
+{\LARGE\raggedright}
+{}{0cm}
+\begin{tikzpicture}[remember picture,overlay]
+\fill[gray!20]
+(current page.north west) rectangle ([yshift=-7cm]current page.north east);
+\node[inner sep=0pt,anchor=west] (label) at 
+([yshift=-4cm]current page text area.west|-current page.north)
+{\rotatebox[origin=c]{90}{%
+		\normalfont\color{black}\Large%
+		\textls[180]{\textsc{\chaptertitlename}}%
+	}\hspace{10pt}%
+	{\setlength\fboxsep{0pt}%
+		\colorbox{myblue}{\parbox[c][3cm][c]{2.5cm}{%
+				\centering\color{white}\fontsize{80}{90}\selectfont \thechapter}%
+	}}%
+};
+\node[right of=label, minimum height=17cm,text width=.5\paperwidth] at ([yshift=-3.6cm, xshift=.5\paperwidth]current page text area.west|-current page.north){\flushbottom \Huge This is a demonstration text for showing how line breaking works.This is a demonstration text for showing how line breaking works.};;
+\node[inner sep=0pt,anchor=north west] at ([yshift=-7cm]current page.north west)
+{\color{gray!20}\rule{\paperwidth}{1cm}};
+\end{tikzpicture}
+[\enlargethispage{-\parskip}\vspace{2cm}]
+
 \begin{document}
 	
-	\begin{tikzpicture}[remember picture,overlay]
-	\fill[gray!20]
-	(current page.north west) rectangle ([yshift=-7cm]current page.north east);
-	\node[inner sep=0pt,anchor=west] (label) at 
-	([yshift=-4cm]current page text area.west|-current page.north)
-	{\rotatebox[origin=c]{90}{%
-			\normalfont\color{black}\Large%
-			\textls[180]{\textsc{Chapter}}%
-		}\hspace{10pt}%
-		{\setlength\fboxsep{0pt}%
-			\colorbox{myblue}{\parbox[c][3cm][c]{2.5cm}{%
-					\centering\color{white}\fontsize{80}{90}\selectfont 2323}%
-		}}%
-	};
-	\node[right of=label, minimum height=17cm,text width=.5\paperwidth] at ([yshift=-3.6cm, xshift=.5\paperwidth]current page text area.west|-current page.north){\flushbottom \Huge This is a demonstration text for showing how line breaking works.This is a demonstration text for showing how line breaking works.};;
-	\node[inner sep=0pt,anchor=north west] at ([yshift=-7cm]current page.north west)
-	{\color{gray!20}\rule{\paperwidth}{1cm}};
-	\end{tikzpicture}
+	\chapter{Aakash}
 	
 \end{document}
