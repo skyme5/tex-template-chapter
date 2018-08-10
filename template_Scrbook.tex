@@ -5,7 +5,7 @@
 
 \begin{document}
 	
-	\begin{tikzpicture}
+	\begin{tikzpicture}[remember picture,overlay]
 	(current page.west) rectangle (current page.east);
 	\node[draw,text width=.5\paperwidth,minimum height=6cm,minimum width=.5\paperwidth] at 
 	(current page text area.west|-current page.north) {some text spanning three lines with automatic line breaks};
