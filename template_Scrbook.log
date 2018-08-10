@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  10 AUG 2018 13:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  10 AUG 2018 13:51
 entering extended mode
 **./template_Scrbook.tex
 (template_Scrbook.tex
@@ -395,21 +395,90 @@ Package microtype Info: Loading configuration file microtype.cfg.
 ("D:\Latex\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
 File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 ))
+! Undefined control sequence.
+l.9 \titleformat
+                {\chapter}[display]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \scr@section@xdblarg has an extra }.
+<inserted text> 
+                \par 
+l.9 \titleformat{\chapter}
+                          [display]
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \scr@section@xdblarg was complete.
+<to be read again> 
+                   \par 
+l.9 \titleformat{\chapter}
+                          [display]
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \titleformat{\chapter}[
+                           display]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<recently read> \chaptertitlename 
+                                  
+l.20 	}
+       \hspace{10pt}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 20.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <80> not available
+(Font)              size <24.88> substituted on input line 24.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 24.
+Missing character: There is no ; in font nullfont!
 (template_Scrbook.aux)
 \openout1 = `template_Scrbook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
  ABD: EveryShipout initializing macros
 ("D:\Latex\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -476,7 +545,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \microtypecontext on input line 9.
+LaTeX Info: Redefining \microtypecontext on input line 32.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -490,41 +559,42 @@ Package microtype Info: No adjustment of character kerning.
 ("D:\Latex\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
-)
+) [1
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <80> not available
-(Font)              size <24.88> substituted on input line 23.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 23.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 23.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 23.
-Missing character: There is no ; in font nullfont!
-[1
 
-{C:/Users/Sky/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(template_Scrbook.aux)
+{C:/Users/Sky/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+
+
+]
+chapter 1.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+[3] (template_Scrbook.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 55.12pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 15222 strings out of 492969
- 307043 string characters out of 3139343
- 481050 words of memory out of 3000000
- 18849 multiletter control sequences out of 15000+200000
- 8539 words of font info for 33 fonts, out of 3000000 for 9000
+ 15204 strings out of 492969
+ 306601 string characters out of 3139343
+ 482017 words of memory out of 3000000
+ 18834 multiletter control sequences out of 15000+200000
+ 9316 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,8n,66p,9097b,658s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Latex/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Latex/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb>
-Output written on template_Scrbook.pdf (1 page, 30684 bytes).
+ 64i,7n,66p,9097b,616s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Latex/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Latex/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmssbx10.pfb>
+Output written on template_Scrbook.pdf (3 pages, 35791 bytes).
 PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
+ 27 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 7181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
