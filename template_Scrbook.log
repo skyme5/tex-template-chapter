@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  10 AUG 2018 13:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  10 AUG 2018 13:52
 entering extended mode
 **./template_Scrbook.tex
 (template_Scrbook.tex
@@ -443,259 +443,21 @@ Package microtype Info: Loading configuration file microtype.cfg.
 ("D:\Latex\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
 File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 ))
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \begin{t
-             ikzpicture}[remember picture,overlay]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   [
-l.14 \fill[
-           gray!20]
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   [
-l.14 \fill[
-           gray!20]
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-l.16 \node
-          [inner sep=0pt,anchor=west] (label) at
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 21.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 21.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <80> not available
-(Font)              size <24.88> substituted on input line 25.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 25.
-! Undefined control sequence.
-l.27 \node
-          [right of=label, minimum height=17cm,text width=.5\paperwidth] at ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.27 ...imum height=17cm,text width=.5\paperwidth]
-                                                   at ([yshift=-3.6cm, xshif...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.27 ...imum height=17cm,text width=.5\paperwidth]
-                                                   at ([yshift=-3.6cm, xshif...
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.27 ... at ([yshift=-3.6cm, xshift=.5\paperwidth]
-                                                  current page text area.wes...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.27 ... at ([yshift=-3.6cm, xshift=.5\paperwidth]
-                                                  current page text area.wes...
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-l.28 \node
-          [inner sep=0pt,anchor=north west] at ([yshift=-7cm]current page.no...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\endtikzpicture ...r@layerlist@globally \endscope 
-                                                  \let \pgf@baseline =\pgf@s...
-l.30 \end{tikzpicture}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Extra \endgroup.
-\endpgfpicture ...er@layerlist@globally \endgroup 
-                                                  \hss \egroup \pgf@restore@...
-l.30 \end{tikzpicture}
-                      
-Things are pretty mixed up, but I think the worst is over.
-
-! Too many }'s.
-\endpgfpicture ...globally \endgroup \hss \egroup 
-                                                  \pgf@restore@layerlist@fro...
-l.30 \end{tikzpicture}
-                      
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Extra \endgroup.
-\endpgfpicture ...bal \pgf@insertlayers \endgroup 
-                                                  \pgfsys@discardpath \endgr...
-l.30 \end{tikzpicture}
-                      
-Things are pretty mixed up, but I think the worst is over.
-
-! Extra \endgroup.
-\endpgfpicture ...p \pgfsys@discardpath \endgroup 
-                                                  \pgfsys@endscope \pgfsys@e...
-l.30 \end{tikzpicture}
-                      
-Things are pretty mixed up, but I think the worst is over.
-
-! Extra \endgroup.
-\endpgfpicture ...pe \pgfsys@endpicture \endgroup 
-                                                  \hss \egroup \pgfsys@types...
-l.30 \end{tikzpicture}
-                      
-Things are pretty mixed up, but I think the worst is over.
-
-! Too many }'s.
-\endpgfpicture ...dpicture \endgroup \hss \egroup 
-                                                  \pgfsys@typesetpicturebox ...
-l.30 \end{tikzpicture}
-                      
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Extra \endgroup.
-\endpgfpicture ...setpicturebox \pgfpic \endgroup 
-                                                  
-l.30 \end{tikzpicture}
-                      
-Things are pretty mixed up, but I think the worst is over.
-
-! Extra \endgroup.
-\endtikzpicture ...lobal \endpgfpicture \endgroup 
-                                                  
-l.30 \end{tikzpicture}
-                      
-Things are pretty mixed up, but I think the worst is over.
-
-
-! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 \end{tikzpicture}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.30 \end{tikzpicture}
-                      
-Things are pretty mixed up, but I think the worst is over.
-
-! Infinite glue shrinkage found in a paragraph.
-l.32 
-     
-The paragraph just ended includes some glue that has
-infinite shrinkability, e.g., `\hskip 0pt minus 1fil'.
-Such glue doesn't belong there---it allows a paragraph
-of any length to fit on one line. But it's safe to proceed,
-since the offensive shrinkability has been made finite.
-
-
-Overfull \hbox (1.74857pt too wide) in paragraph at lines 13--32
-\OT1/cmr/m/n/10.95 ([yshift=-7cm]current page.north east); [in-ner sep=0pt,anch
-or=west] (la-bel) at ([yshift=-
- []
-
-
-Overfull \hbox (8.89189pt too wide) in paragraph at lines 13--32
-\OT1/cmr/m/n/10.95 4cm]current page text area.west|-current page.north) [] [][]
-[][][][]; [right of=label,
- []
-
-
-Overfull \hbox (6.53177pt too wide) in paragraph at lines 13--32
-\OT1/cmr/m/n/10.95 area.west|-current page.north)\OT1/cmr/m/n/24.88 This is a d
-emon-stra-tion text
- []
-
-
-Overfull \hbox (11.13382pt too wide) in paragraph at lines 13--32
-\OT1/cmr/m/n/24.88 line break-ing works.\OT1/cmr/m/n/10.95 ;; [in-ner sep=0pt,a
-nchor=north west] at ([yshift=-
- []
-
 (template_Scrbook.aux)
 \openout1 = `template_Scrbook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
  ABD: EveryShipout initializing macros
 ("D:\Latex\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -762,7 +524,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \microtypecontext on input line 33.
+LaTeX Info: Redefining \microtypecontext on input line 35.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -776,62 +538,42 @@ Package microtype Info: No adjustment of character kerning.
 ("D:\Latex\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
-) [1
-
-{C:/Users/Sky/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
-
-
-]
+)
 chapter 1.
 
-! LaTeX Error: Environment  undefined.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <80> not available
+(Font)              size <24.88> substituted on input line 37.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 	\chapter{Aakash}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 37.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 37.
+Missing character: There is no ; in font nullfont!
+[1
 
-! Extra }, or forgotten \endgroup.
-\ttl@topmode #1#2->{#2}
-                       \ttl@calc \vspace {#1}
-l.35 	\chapter{Aakash}
-                      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
-[3] (template_Scrbook.aux)
+
+{C:/Users/Sky/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(template_Scrbook.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 55.12pt have occurred.
 
- )
-(\end occurred inside a group at level 2)
-
-### semi simple group (level 2) entered at line 35 (\begingroup)
-### simple group (level 1) entered at line 35 ({)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 15347 strings out of 492969
- 307009 string characters out of 3139343
- 485731 words of memory out of 3000000
- 18975 multiletter control sequences out of 15000+200000
- 8854 words of font info for 34 fonts, out of 3000000 for 9000
+ 15462 strings out of 492969
+ 310121 string characters out of 3139343
+ 487219 words of memory out of 3000000
+ 19087 multiletter control sequences out of 15000+200000
+ 7566 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,8n,66p,9097b,281s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-><D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Latex/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on template_Scrbook.pdf (3 pages, 41772 bytes).
+ 64i,7n,76p,9097b,736s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Latex/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Latex/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr17.pfb>
+Output written on template_Scrbook.pdf (1 page, 30448 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
+ 21 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 4621 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 8717 words of extra memory for PDF output out of 10000 (max. 10000000)
 
