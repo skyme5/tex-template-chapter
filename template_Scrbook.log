@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  10 AUG 2018 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  10 AUG 2018 13:22
 entering extended mode
 **./template_Scrbook.tex
 (template_Scrbook.tex
@@ -451,10 +451,10 @@ G,.JBIG2,.JB2,.eps]
 {C:/Users/Sky/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (template_Scr
 book.aux) ) 
 Here is how much of TeX's memory you used:
- 13447 strings out of 492969
- 274058 string characters out of 3139343
+ 13450 strings out of 492969
+ 274125 string characters out of 3139343
  415582 words of memory out of 3000000
- 17116 multiletter control sequences out of 15000+200000
+ 17119 multiletter control sequences out of 15000+200000
  4293 words of font info for 16 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,8n,66p,9097b,515s stack positions out of 5000i,500n,10000p,200000b,50000s
