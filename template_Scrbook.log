@@ -507,15 +507,15 @@ Missing character: There is no ; in font nullfont!
 {C:/Users/Sky/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (template_Scr
 book.aux) ) 
 Here is how much of TeX's memory you used:
- 13545 strings out of 492969
- 276976 string characters out of 3139343
+ 13548 strings out of 492969
+ 277045 string characters out of 3139343
  416790 words of memory out of 3000000
- 17206 multiletter control sequences out of 15000+200000
+ 17209 multiletter control sequences out of 15000+200000
  4293 words of font info for 16 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,8n,66p,9097b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on template_Scrbook.pdf (1 page, 15448 bytes).
+Output written on template_Scrbook.pdf (1 page, 15449 bytes).
 PDF statistics:
  13 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
