@@ -8,9 +8,24 @@
 	
 	\begin{tikzpicture}[remember picture,overlay]
 	\fill[gray!20]
-	(current page.west)  (current page.east);
-	\node[text width=.5\paperwidth,minimum height=6cm,minimum width=.5\paperwidth] at 
-	(0, 0) {some text spanning three lines with automatic line breaks};
+	(current page.north west) rectangle ([yshift=-7cm]current page.north east);
+	\node[inner sep=0pt,anchor=west] (label) at 
+	([yshift=-4cm]current page text area.west|-current page.north)
+	{\rotatebox[origin=c]{90}{%
+			\normalfont\color{black}\Large%
+			\textls[180]{\textsc{Chapter}}%
+		}\hspace{10pt}%
+		{\setlength\fboxsep{0pt}%
+			\colorbox{myblue}{\parbox[c][3cm][c]{2.5cm}{%
+					\centering\color{white}\fontsize{80}{90}\selectfont 2323}%
+		}}%
+	};
+	\node[inner sep=0pt,anchor=west] (title) at 
+	([yshift=-6.5cm]current page text area.west|-current page.north)
+	{\parbox[t]{2cm}{\mbox{}}%
+		\parbox[t]{\dimexpr\linewidth-2cm\relax}{\flushright\Huge23\\{\color{gray!20} 23}}};
+	\node[inner sep=0pt,anchor=north west] at ([yshift=-7cm]current page.north west)
+	{\color{gray!20}\rule{\paperwidth}{1cm}};
 	\end{tikzpicture}
 	
 \end{document}
