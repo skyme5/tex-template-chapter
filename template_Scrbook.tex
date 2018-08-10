@@ -7,7 +7,7 @@
 \newcommand{\textbox}[1]% #1 = text
 {\savebox{\tempbox}{#1}% get width
 	\ifdim\wd\tempbox<4cm\relax
-	\makebox[4cm]{\usebox{\tempbox}}%
+	\makebox[0.5\textwidth]{\usebox{\tempbox}}%
 	\else
 	\parbox{4cm}{\raggedright #1}%
 	\fi}
