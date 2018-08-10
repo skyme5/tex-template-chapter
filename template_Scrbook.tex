@@ -7,7 +7,7 @@
 	\begin{tikzpicture}
 	(current page.north west) rectangle ([yshift=-7cm]current page.north east);
 	\node[draw,text width=.5\paperwidth,minimum height=6cm,minimum width=.5\paperwidth] at 
-	(-2,-2) {some text spanning three lines with automatic line breaks};
+	([yshift=-4cm]current page text area.west|-current page.north) {some text spanning three lines with automatic line breaks};
 	\end{tikzpicture}
 	
 \end{document}
