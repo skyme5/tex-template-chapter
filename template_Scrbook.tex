@@ -2,20 +2,11 @@
 
 \usepackage{tikz}
 
-\newsavebox{\tempbox}
-
-\newcommand{\textbox}[1]% #1 = text
-{\savebox{\tempbox}{#1}% get width
-	\ifdim\wd\tempbox<4cm\relax
-	\makebox[0.5\textwidth]{\usebox{\tempbox}}%
-	\else
-	\parbox{4cm}{\raggedright #1}%
-	\fi}
 \begin{document}
 	
 	\begin{tikzpicture}
-	\node (A) [draw] at (2,-2) {\textbox{some text spanning three lines with automatic line breaks}};
-	\node[right=1em,draw] at (A.east) {\textbox{short}};
+	\node[draw,text width=4cm,minimum height=6cm,minimum width=10cm] at 
+	(2,-2) {some text spanning three lines with automatic line breaks};
 	\end{tikzpicture}
 	
 \end{document}
