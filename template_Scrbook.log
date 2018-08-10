@@ -511,17 +511,17 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 15227 strings out of 492969
- 307110 string characters out of 3139343
+ 15223 strings out of 492969
+ 307006 string characters out of 3139343
  481050 words of memory out of 3000000
- 18854 multiletter control sequences out of 15000+200000
+ 18850 multiletter control sequences out of 15000+200000
  8539 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,8n,66p,9097b,658s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,8n,66p,9097b,656s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Latex/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Latex/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmr17.pfb>
-Output written on template_Scrbook.pdf (1 page, 25944 bytes).
+Output written on template_Scrbook.pdf (1 page, 25940 bytes).
 PDF statistics:
  21 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
