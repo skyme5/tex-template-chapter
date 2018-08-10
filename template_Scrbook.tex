@@ -3,8 +3,6 @@
 \usepackage{tikz}
 \usepackage{tikzpagenodes}
 \usepackage{xcolor}
-\usepackage{microtype}
-\definecolor{myblue}{RGB}{0,82,155}
 
 \begin{document}
 	
@@ -12,7 +10,7 @@
 	\fill[gray!20]
 	(current page.north west) rectangle ([yshift=-7cm]current page.north east);
 	\node[inner sep=0pt,anchor=west] (label) at 
-	(current page text area.west|-current page.north)
+	([yshift=-4cm]current page text area.west|-current page.north)
 	{\rotatebox[origin=c]{90}{%
 			\normalfont\color{black}\Large%
 			\textls[180]{\textsc{Chapter}}%
@@ -23,9 +21,9 @@
 		}}%
 	};
 	\node[inner sep=0pt,anchor=west] (title) at 
-	(current page text area.west|-current page.north)
+	([yshift=-6.5cm]current page text area.west|-current page.north)
 	{\parbox[t]{2cm}{\mbox{}}%
-		\parbox[t]{5cm}{\dimexpr\linewidth-2cm\relax}{\flushright\Huge 23232323232323232323232323232323232323232323}};
+		\parbox[t]{\dimexpr\linewidth-2cm\relax}{\flushright\Huge 23232323232323}};
 	\node[inner sep=0pt,anchor=north west] at ([yshift=-7cm]current page.north west)
 	{\color{gray!20}\rule{\paperwidth}{1cm}};
 	\end{tikzpicture}
