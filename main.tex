@@ -1,96 +1,83 @@
-\documentclass[12pt]{scrbook}
-\usepackage{tikz}
+\documentclass[a4paper,12pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{lipsum}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% title format for chapter
+%
 \usepackage{tikzpagenodes}
 \usepackage[explicit]{titlesec}
 \usepackage{xcolor}
 \usepackage{microtype}
-\usepackage{lipsum}
 \definecolor{blueBack}{RGB}{0,82,155}
 
-\titleformat
-{\chapter}
-[display]
-{\raggedright}
-{}{0pt}
-{
-% \begin{tikzpicture}[background rectangle/.style={fill=olive!45} remember picture,overlay]
-% 	\node[shape=rectangle, fill=gray!20, minimum height=8cm, minimum width=\paperwidth] at (8.75, 2.4) {};
-% 	\node[shape=rectangle, minimum height=4cm, minimum width=4cm, absolute, font=\huge]
-% 	 at (1.54, 3.54) {
-% 		\rotatebox[origin=c]{90}{
-% 			\color{black}\Large
-% 			\textls[180]{
-% 				\fontsize{25}{30}\chaptertitlename
-% 			}
-% 		}\hspace{0pt}
-% 		{
-% 			\colorbox{blueBack}{
-% 				\parbox[c][3cm][c]{3cm}{
-% 					\centering{
-% 					\color{white}{
-% 							\bfseries\fontsize{24}{30}\selectfont\thechapter
-% 					}}
-% 				}%
-% 			}
-% 		}
-% 	};
-% 	\node[shape=rectangle, minimum height=4cm, minimum width=0.8\paperwidth, text width=0.8\textwidth, align=right, font=\huge]
-% 	at (0, 0) {
-% 		 \textbf{#1}
-% 	};
-% \end{tikzpicture}
-\begin{tikzpicture}[remember picture,overlay]
-	\fill[gray!20]
-	(current page.north west) rectangle ([yshift=-7cm]current page.north east);
-	\node[inner sep=0pt,anchor=west] (label) at ([yshift=-3cm]current page text area.west|-current page.north)
-	{
-		\rotatebox[origin=c]{90}{
-			\normalfont\color{black}
-			\textls[180]{
-				\textsc{\chaptertitlename}
-			}
-		}
-		\hspace{0pt}%
-		{\setlength\fboxsep{0pt}
+%	For Chapters
+%\titleformat{command}
+%[shape]
+%{format}
+%{label}
+%{sep}
+%{before-code}
+%[after-code]
+
+\titleformat{\chapter}
+[display] %shape
+{} %format
+{}{0cm} %sep
+{ %before
+	\begin{tikzpicture}[background rectangle/.style={fill=olive!45} remember picture,overlay]
+	\node[shape=rectangle, fill=gray!20, minimum height=12cm, minimum width=1.0\paperwidth] at (7.61, 5.5cm) {};
+	\node[shape=rectangle, minimum height=4cm, minimum width=4cm, absolute]
+	 at (1.54, 3.54) {
+		\rotatebox[origin=c]{90}{%
+			\normalfont\color{black}\Large%
+			\textls[180]{\textsc{\fontsize{16}{20}\selectfont\chaptertitlename}}%
+		}\hspace{0pt}
+		{\setlength\fboxsep{0pt}%
 			\colorbox{blueBack}{
-				\parbox[c][3cm][c]{3cm}{
-					\color{white}{
-						\begin{center}
-						\bfseries\fontsize{50}{50}\selectfont \thechapter
-						\end{center}
-					}
-				}
-			}
-		}
+				\parbox[c][3.5cm][c]{3.5cm}{%
+					\centering\color{white}{\Huge \thechapter}}%
+		}}
 	};
-	\node[right of=label, minimum height=3cm, text width=.5\paperwidth] at ([yshift=-5.25cm, xshift=.264\paperwidth]current page text area.west|-current page.north){\begin{flushright}\Huge #1\end{flushright}};;
-	\node[inner sep=0pt,anchor=north west] at ([yshift=-7cm]current page.north west)
-	{\color{gray!20}\rule{\paperwidth}{0pt}};
+	\node[shape=rectangle, minimum height=4cm, minimum width=11cm, text width=11cm, align=right, font=\huge]
+	at (10, 3.54) {
+		 \textbf{#1}
+	};
 	\end{tikzpicture}
 }
-[
-	\vspace{2cm}
-]
+[\enlargethispage{-\parskip}\vspace{1cm}]
+
+\titleformat{name=\chapter,numberless}
+[display] %shape
+{} %format
+{}{0cm} %sep
+{ %before
+	\begin{tikzpicture}[background rectangle/.style={fill=olive!45} remember picture,overlay]
+	\node[shape=rectangle, fill=gray!20, minimum height=12cm, minimum width=1.0\paperwidth] at (7.61, 5.5cm) {};
+	\node[shape=rectangle, minimum height=4cm, minimum width=11cm, text width=11cm, align=right, font=\huge]
+	at (10, 3.54) {
+		\textbf{#1}
+	};
+	\end{tikzpicture}
+}
+[\enlargethispage{-\parskip}\vspace{1cm}]
 
 \begin{document}
 
-\chapter{Chapter One}
+\author{TeXstudio Team}
+\title{Simple Book Example}
+\date{January 2013}
+
+%\frontmatter
+%\maketitle
+%\tableofcontents
+
+\mainmatter
+\chapter[Short title]{This is a demonstration text for showing how line breaking works.}
 \lipsum
 
-\chapter{Chapter Two}
-\lipsum
-
-\chapter{Chapter Three}
-\lipsum
-
-\chapter{Chapter Four}
-\lipsum
-
-\chapter{Chapter Five}
-\lipsum
-
-\chapter{Chapter Six}
-\lipsum
-
+\backmatter
+% bibliography, glossary and index would go here.
 
 \end{document}
